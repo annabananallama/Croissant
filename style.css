@@ -1,5 +1,54 @@
+body {
+  background-color: rgb(255, 208, 150);
+}
+
 h1 {
   text-align: center;
   color: White;
-  size: 20px;
+  font-size: 75px;
+  margin-top: 100px;
+  font-family: sans-serif;
+}
+
+h2 {
+  color: white;
+  size: 28px;
+}
+
+p {
+  color: rgb(1, 1, 157);
+  text-align: center;
+  background-color: white;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-top: 70px;
+  padding: 40px;
+  border-radius: 15px;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+a {
+  color: white;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+  font-size: 18px;
+  margin-top: 40px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  display: block;
+  text-align: center;
+  font-family: sans-serif;
+  color: rgb(165, 87, 42);
 }
